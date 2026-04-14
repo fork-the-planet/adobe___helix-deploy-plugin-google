@@ -28,7 +28,7 @@
     "reporter-options": "configFile=.mocha-multi.json"
   },
   "peerDependencies": {
-    "@adobe/helix-deploy": "^13.0.0",
+    "@adobe/helix-deploy": "^14.0.0",
     "@adobe/helix-universal": ">=5.2.1"
   },
   "dependencies": {
@@ -40,7 +40,6 @@
   },
   "devDependencies": {
     "@adobe/eslint-config-helix": "3.0.24",
-    "@adobe/helix-deploy": "*",
     "@eslint/config-helpers": "0.5.3",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
