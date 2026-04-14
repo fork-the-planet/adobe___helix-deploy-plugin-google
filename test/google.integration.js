@@ -23,7 +23,7 @@ describe('Google Integration Test', () => {
   let origPwd;
 
   beforeEach(async () => {
-    testRoot = await fse.mkdtemp(path.resolve(__rootdir, 'test', 'tmp', 'test-'));
+    testRoot = await fse.mkdtemp(path.resolve(__rootdir, 'test', 'tmp-'));
     origPwd = process.cwd();
   });
 

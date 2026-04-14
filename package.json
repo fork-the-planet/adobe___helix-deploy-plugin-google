@@ -2,25 +2,29 @@
   "name": "@adobe/helix-deploy-plugin-google",
   "version": "1.0.0",
   "description": "Helix Deploy - Plugin for Google Cloud Functions",
-  "main": "src/index.js",
-  "type": "module",
-  "scripts": {
-    "test": "c8 mocha -i -g Integration --spec=test/**/*.js",
-    "lint": "eslint .",
-    "semantic-release": "semantic-release",
-    "semantic-release-dry": "semantic-release --dry-run --branches $CI_BRANCH",
-    "prepare": "husky"
-  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/adobe/helix-deploy-plugin-google#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/adobe/helix-deploy-plugin-google.git"
   },
-  "author": "",
-  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/adobe/helix-deploy-plugin-google/issues"
   },
-  "homepage": "https://github.com/adobe/helix-deploy-plugin-google#readme",
+  "keywords": [
+    "helix",
+    "serverless"
+  ],
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "c8 mocha -i -g Integration",
+    "integration-ci": "c8 mocha -g Integration",
+    "semantic-release": "semantic-release",
+    "semantic-release-dry": "semantic-release --dry-run --branches $CI_BRANCH",
+    "prepare": "husky"
+  },
   "mocha": {
     "require": "test/setup-env.js",
     "recursive": "true",
@@ -46,6 +50,7 @@
     "@semantic-release/npm": "13.1.5",
     "c8": "11.0.0",
     "eslint": "9.4.0",
+    "fs-extra": "11.3.4",
     "husky": "9.1.7",
     "lint-staged": "16.4.0",
     "mocha": "11.7.5",
