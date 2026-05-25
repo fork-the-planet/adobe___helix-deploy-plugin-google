@@ -40,17 +40,17 @@
     "@google-cloud/secret-manager": "6.1.2",
     "@google-cloud/storage": "7.19.0",
     "chalk-template": "1.1.2",
-    "semver": "7.7.4"
+    "semver": "7.8.0"
   },
   "devDependencies": {
     "@adobe/eslint-config-helix": "3.0.27",
-    "@eslint/config-helpers": "0.5.5",
+    "@eslint/config-helpers": "0.6.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "13.1.5",
     "c8": "11.0.0",
     "eslint": "9.4.0",
-    "fs-extra": "11.3.4",
+    "fs-extra": "11.3.5",
     "husky": "9.1.7",
     "lint-staged": "16.4.0",
     "mocha": "11.7.5",
