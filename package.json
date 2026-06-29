@@ -1,6 +1,6 @@
 {
   "name": "@adobe/helix-deploy-plugin-google",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Helix Deploy - Plugin for Google Cloud Functions",
   "license": "Apache-2.0",
   "homepage": "https://github.com/adobe/helix-deploy-plugin-google#readme",
